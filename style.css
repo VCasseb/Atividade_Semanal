@@ -1,0 +1,80 @@
+:root{
+    --primaria:'butchsundance.ttf';
+    --secundario:'ROADSTORE Dafont.ttf';
+
+}
+
+@font-face {
+    font-family: 'butchsundance.ttf';
+    src: url(font/butchsundance.ttf);
+}
+
+@font-face {
+    font-family: 'ROADSTORE Dafont.ttf';
+    src: url(font/ROADSTORE\ Dafont.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d0d0d;
+    background-size: 300px;
+    padding: 30px;
+    font-family: var(--primaria);
+    font-size: 45px;
+    font-weight: ;
+    height: 100px;
+    font-weight:lighter;
+}
+
+header a{
+    text-decoration: none;
+    color: #bd8a5f;
+    font-weight: 500;
+}
+
+.home{
+    display: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-home{
+    position: absolute;
+    display:center;
+    padding: 15% 25%;
+}
+
+.home h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.home img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.home button{
+    border: 2px solid #bd8a5f;
+    background-color: #bd8a5f;
+    color: white ;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 40px;
+}
