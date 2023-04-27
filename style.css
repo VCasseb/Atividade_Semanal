@@ -5,43 +5,52 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    
 }
-
-
 
 header{
     align-items: center;
     display: flex;
     justify-content: space-around;
-    background-color: #000000;
+    background-color: rgb(26, 25, 25);
     background-size: 300px;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
-    font-weight: ;
+    font-size: 25px;
     height: 100px;
     font-weight:lighter;
+    border-bottom: 1px solid #fca311;
+}
+
+header img{
+    width: 150px;
 }
 
 header a{
     text-decoration: none;
-    color: #fca311;
-    font-weight: 500;
-    border-right: #fca311;
+    color: #ffffff;
+    font-weight: bold;
+    border-right: #000000;
 
 }
 
 #home{
+    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
     display: center;
     text-align: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
 }
 
+
 .text-home{
     position: center;
     display:center;
-    padding: 15% 25%;
+    padding: 10% 25%;
+    color: #FFFFFF;
+}
+.text-home img{
+    padding-bottom: 50px;
 }
 
 #home h1{
@@ -56,29 +65,30 @@ header a{
 }
 
 #home button{
-    border: 15px solid #fca311;
+    border: none;
     background-color: #fca311;
     color: white ;
     padding: 14px 28px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
-    margin: 40px;
+    margin: 30px;
 }
 
 #sobre{
+    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
     flex-direction: row;
     display: flex;
 }
 
 #sobre img{
     display: flex;
-    margin-left: 50px;
-    margin-top: 2%;
-    width: 40%;
-    height: 70%;
+    margin-left: 250px;
+    width: 420px;
+    height: 430px;
     justify-content: left;
-    border-radius: 35px;
+    border-radius: 85px;
 }
 .texto-sobre{
     margin-left: 10%;
@@ -87,6 +97,7 @@ header a{
     justify-content: center;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .texto-sobre h1{
@@ -99,7 +110,7 @@ header a{
     margin-top: 5%;
 }
 .sobre-botao button{
-    border: 15px solid #fca311;
+    border: none;
     background-color: #fca311;
     color: white ;
     padding: 14px 28px;
@@ -107,4 +118,5 @@ header a{
     cursor: pointer;
     border-radius: 5px;
     margin: 5px;
+    font-weight: bold;
 }
