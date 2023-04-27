@@ -1,18 +1,3 @@
-:root{
-    --primaria:'butchsundance.ttf';
-    --secundario:'ROADSTORE Dafont.ttf';
-
-}
-
-@font-face {
-    font-family: 'butchsundance.ttf';
-    src: url(font/butchsundance.ttf);
-}
-
-@font-face {
-    font-family: 'ROADSTORE Dafont.ttf';
-    src: url(font/ROADSTORE\ Dafont.ttf);
-}
 
 *{
     padding: 0;
@@ -28,10 +13,10 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-around;
-    background-color: #0d0d0d;
+    background-color: #000000;
     background-size: 300px;
     padding: 30px;
-    font-family: var(--primaria);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
     font-weight: ;
     height: 100px;
@@ -40,11 +25,13 @@ header{
 
 header a{
     text-decoration: none;
-    color: #bd8a5f;
+    color: #fca311;
     font-weight: 500;
+    border-right: #fca311;
+
 }
 
-.home{
+#home{
     display: center;
     text-align: center;
     justify-content: center;
@@ -52,29 +39,72 @@ header a{
 }
 
 .text-home{
-    position: absolute;
+    position: center;
     display:center;
     padding: 15% 25%;
 }
 
-.home h1{
+#home h1{
     font-size: 40px;
     margin-bottom: 40px;
 }
 
-.home img{
+#home img{
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
-.home button{
-    border: 2px solid #bd8a5f;
-    background-color: #bd8a5f;
+#home button{
+    border: 15px solid #fca311;
+    background-color: #fca311;
     color: white ;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     margin: 40px;
+}
+
+#sobre{
+    flex-direction: row;
+    display: flex;
+}
+
+#sobre img{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 2%;
+    width: 40%;
+    height: 70%;
+    justify-content: left;
+    border-radius: 35px;
+}
+.texto-sobre{
+    margin-left: 10%;
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-sobre h1{
+    margin-bottom: 5%;
+}
+
+.sobre-botao{
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+}
+.sobre-botao button{
+    border: 15px solid #fca311;
+    background-color: #fca311;
+    color: white ;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
 }
