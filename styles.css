@@ -1,26 +1,110 @@
 *{
-    margin: 0;
-    padding: 0;
-    border: 0;
-
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem ;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
 }
-
+section{
+    
+}
 
 body{
-    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading span{
+    font-size: 1rem;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+}
+
+.heading h1{
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.shop-container{
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.shop-container .box{
+    flex: 1 1 30rem;
+    background: rgb(32, 32, 32);
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: #06283d;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    margin: 50px;
 }
 
-.container{
-    position: relative;
-    width: 300px;
-    height: 370px;
-    background: white;
-    padding: 20px 32px;
-    border-radius: 18px;
-    font-family: 'Roboto', sans-serif;
+#imagem{
+    width: 150px;
+    height: 150px;
 }
 
+.shop-container .box .box-img{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+}
+
+.shop-container .box .box-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+
+}
+
+.stars{
+    margin: 1rem 0 0.1rem;
+}
+
+.shop-container .box .stars .bx{
+    color: rgb(255, 255, 255);
+}
+
+.shop-container .box h2{
+    color: rgb(255, 255, 255) ;
+    font-size: 1.2rem;
+}
+
+.shop-container .box span{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0.2rem 0 0.5rem;
+}
+
+button{
+    font-size: 10px;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    font-family: 400;
+    background: black;
+    cursor: pointer;
+
+}
+
+.box .btn:hover{
+    background-color: blue;
+    color:black
+}
