@@ -78,6 +78,7 @@ header a{
 }
 
 #sobre{
+    padding-top: 100px;
     background-image: linear-gradient(to right,black,rgb(33, 33, 33));
     flex-direction: row;
     display: flex;
@@ -127,9 +128,12 @@ header a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    padding-left: 200px;
 }
 
 #Porque{
+    padding-top: 200px;
     background-image: linear-gradient(to right,black,rgb(33, 33, 33));
 }
 
@@ -208,14 +212,9 @@ header a{
 
 
 #Porque{
-    padding-top: 150px;
+    padding-top: 200px;
     background-image: linear-gradient(to right,black,rgb(33, 33, 33));
     font-family: 'Roboto', sans-serif;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
 }
 .heading{
     text-align: center;
@@ -230,7 +229,7 @@ body{
 
 .heading h1{
     font-size: 2rem;
-    color:rgb(255, 255, 255);
+    color:#fca311;
     padding: 30px;
 }
 
@@ -291,6 +290,12 @@ body{
     font-size: 1.4rem;
     font-weight: 500;
     margin: 0.2rem 0 0.5rem;
+}
+
+.shop{
+    padding-top: 200px;
+    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
+    font-family: 'Roboto', sans-serif;
 }
 
 .botao-servico{
