@@ -386,3 +386,114 @@ header a{
     background: #cf7f06;
     cursor: pointer;
 }
+
+/* Aba de Contato */
+
+.cabecalho{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.contato{
+    height: 500px;
+    width: 500px;
+    margin-left: 5%;
+    float: left;
+}
+
+.endereco img{
+    border-radius: 10px;
+    margin: 3px;
+    height: 110px;
+    width: 110px;
+}
+
+.endereco{
+    display: flex;
+}
+
+.localizacao{
+    flex-direction: column;
+    display: flex;
+}
+
+.telefone img{
+    margin: 3px;
+    height: 110px;
+    width: 110px;
+}
+
+.telefone{
+    display: flex;
+}
+
+.cell{
+    flex-direction: column;
+    display: flex;
+}
+
+.email img{
+    border-radius: 10px;
+    margin: 3px;
+    height: 110px;
+    width: 110px;
+}
+
+.email{
+    display: flex;
+}
+
+.correio{
+    flex-direction: column;
+    display: flex;
+}
+
+
+
+.texto-contato{
+    margin-left: 250px;
+    height: 100px;
+    width: 590px;
+    float: left;
+    flex-direction: column;
+    
+}
+
+.nome{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 50px;
+    width: 246px;
+}
+
+.txt{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 50px;
+    width: 246px;
+
+}
+
+.descricao input{
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+    float: left;
+}
+
+.enviar{
+    margin: 5px;
+    border: 1px solid #000000;
+    background-color: #f77f00;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    width: 65px;
+    margin-left: 440px;
+}

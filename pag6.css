@@ -12,47 +12,57 @@
     margin-bottom: 5%;
 }
 
-
 .contato{
     
     height: 500px;
     width: 500px;
     margin-left: 5%;
     float: left;
-}.endereco img{
+}
+
+.endereco img{
     border-radius: 10px;
     margin: 3px;
     height: 110px;
     width: 110px;
-}.endereco{
+}
 
+.endereco{
     display: flex;
-}.localizacao{
+}
 
+.localizacao{
     flex-direction: column;
     display: flex;
-}.telefone img{
+}
+
+.telefone img{
     margin: 3px;
     height: 110px;
     width: 110px;
-}.telefone{
+}
 
+.telefone{
     display: flex;
-}.cell{
+}
 
+.cell{
     flex-direction: column;
     display: flex;
-}.email img{
+}
+
+.email img{
     border-radius: 10px;
     margin: 3px;
     height: 110px;
     width: 110px;
+}
 
-}.email{
-
+.email{
     display: flex;
-}.correio{
+}
 
+.correio{
     flex-direction: column;
     display: flex;
 }
@@ -66,18 +76,24 @@
     float: left;
     flex-direction: column;
     
-}.nome{
+}
+
+.nome{
     border: 1px solid #000000;
     border-radius: 10px;
     height: 50px;
     width: 246px;
-}.txt{
+}
+
+.txt{
     border: 1px solid #000000;
     border-radius: 10px;
     height: 50px;
     width: 246px;
 
-}.descricao input{
+}
+
+.descricao input{
     margin-top: 5px;
     border: 1px solid #000000;
     border-radius: 10px;
@@ -86,7 +102,7 @@
     float: left;
 }
 
-button{
+.enviar{
     margin: 5px;
     border: 1px solid #000000;
     background-color: #f77f00;
