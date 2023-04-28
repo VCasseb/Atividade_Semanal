@@ -1,14 +1,12 @@
 *{
-    font-family: sans-serif;
-    color: #fff;
     line-height: 1.5;
-    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
 }
+
 header{
     align-items: center;
     display: flex;
@@ -93,8 +91,8 @@ header a{
 }
 .texto-sobre{
     margin-left: 10%;
-    width: 40%;
-    height: 40%;
+    width: 40vw;
+    height: 40vh;
     justify-content: center;
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -129,6 +127,10 @@ header a{
     justify-content: center;
 }
 
+#Porque{
+    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
+}
+
 .container-card-desk {
     width: 33.33%;
     padding: 0 15px;
@@ -155,13 +157,20 @@ header a{
 .img {
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: #202020;
+    border: 3px solid #fca311;
+    border-radius: 40px;
 }
 
 .user {
     width: 225px;
     height: 150px;
-    margin-top: 20px;
+}
+.card img{
+    border-radius: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .desc {
@@ -170,11 +179,33 @@ header a{
     text-align: center;
     font-size: 10px;
     font-weight: 500;
+    color: white;
 }
 
 .titulo {
-    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.titulo h1{
+    font-size: 30px;
+    color: #fca311;
+}
+
+.desc h1{
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.desc h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#Porque{
+    padding-top: 150px;
+    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
+    font-family: 'Roboto', sans-serif;
 }
