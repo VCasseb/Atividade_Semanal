@@ -396,6 +396,7 @@ header a{
     display: flex;
     margin-top: 20%;
     margin-bottom: 5%;
+    color: var(--cor-primaria)
 }
 
 .contato{
@@ -414,6 +415,7 @@ header a{
 
 .endereco{
     display: flex;
+    color: white;
 }
 
 .localizacao{
@@ -425,10 +427,14 @@ header a{
     margin: 3px;
     height: 110px;
     width: 110px;
+    background-color: #FFFFFF;
+    border-radius: 90px;
+    border: 2px;
 }
 
 .telefone{
     display: flex;
+    color: white;
 }
 
 .cell{
@@ -445,6 +451,7 @@ header a{
 
 .email{
     display: flex;
+    color: white;
 }
 
 .correio{
@@ -496,4 +503,8 @@ header a{
     height: 35px;
     width: 65px;
     margin-left: 440px;
+}
+
+body{
+    background-image: linear-gradient(to right,black,rgb(33, 33, 33));
 }
